@@ -1,13 +1,13 @@
 var webPush = require('web-push');
 
 const vapidKeys = {
-    "publicKey": "BMzLBN47faSoxI6wBTk78JXJTLZoe4Kd96oy8bK6qVOu32LXl8-e70YJmeA41ZXMZ3SjjP-fBOBdCByyemoDMAw",
-    "privateKey": "kdO8sVHpghSbMjpZAoV2OMTjBwprtDyD3vzHfuOLzck"
+    "publicKey": "BJA0e92zF8MWdZgJvPtFLqVQT-00Jc1fhGPjRRI72-RupcdAPaHSSISFEmJaEJ3nw_vhmcb_csSzTqytkYKn_Sw-e70YJmeA41ZXMZ3SjjP-fBOBdCByyemoDMAw",
+    "privateKey": "v6wHfhxPL3v_aQgTTp-cmveeDlEghkt9H9vjJnEsVUY"
 };
 
 
 webPush.setVapidDetails(
-    'mailto:alvinindrap@gmail.com',
+    'mailto:m.iqbal.adenan@gmail.com',
     vapidKeys.publicKey,
     vapidKeys.privateKey
 )
