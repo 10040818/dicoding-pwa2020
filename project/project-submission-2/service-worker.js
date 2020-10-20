@@ -29,7 +29,8 @@ var urlsToCache = [
     "/js/detail_match.js",
     "/js/idb.js",
     "/js/dbfootball.js",
-    "/js/dbfunction.js"
+    "/js/dbfunction.js",
+    "/manifes.json"
 ];
 
 self.addEventListener("install", function(event) {
